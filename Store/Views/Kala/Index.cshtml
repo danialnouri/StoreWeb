@@ -1,0 +1,50 @@
+@model IEnumerable<Store.Models.DetailKalaViewModel>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table id="tblData" class="table">
+    <thead>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.KalaName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.KalaPrice)
+        </th>
+        <th></th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.KalaName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.KalaPrice)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.KalaId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.KalaId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.KalaId" onclick="return confirm('are you sure?')">Delete</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
+
+@section Scripts{
+    <script>
+        $(document).ready( function () {
+            $('#tblData').DataTable();
+        } );
+    </script>
+}
