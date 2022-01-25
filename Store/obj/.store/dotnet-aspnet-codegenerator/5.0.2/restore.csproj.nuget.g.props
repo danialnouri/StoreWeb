@@ -4,18 +4,18 @@
     <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
     <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
     <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
-    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">/Users/mac/RiderProjects/StoreWeb/Store/obj/.store/.stage/iuz1cszm.qhd</NuGetPackageRoot>
-    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/Users/mac/RiderProjects/StoreWeb/Store/obj/.store/.stage/iuz1cszm.qhd</NuGetPackageFolders>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">/Users/mac/RiderProjects/StoreWeb/Store/obj/.store/.stage/bw1dozr5.x13</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/Users/mac/RiderProjects/StoreWeb/Store/obj/.store/.stage/bw1dozr5.x13</NuGetPackageFolders>
     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">DotnetToolReference</NuGetProjectStyle>
     <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.11.1</NuGetToolVersion>
   </PropertyGroup>
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <SourceRoot Include="/Users/mac/RiderProjects/StoreWeb/Store/obj/.store/.stage/iuz1cszm.qhd/" />
+    <SourceRoot Include="/Users/mac/RiderProjects/StoreWeb/Store/obj/.store/.stage/bw1dozr5.x13/" />
   </ItemGroup>
   <PropertyGroup>
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Pkgdotnet-aspnet-codegenerator Condition=" '$(Pkgdotnet-aspnet-codegenerator)' == '' ">/Users/mac/RiderProjects/StoreWeb/Store/obj/.store/.stage/iuz1cszm.qhd/dotnet-aspnet-codegenerator/5.0.2</Pkgdotnet-aspnet-codegenerator>
+    <Pkgdotnet-aspnet-codegenerator Condition=" '$(Pkgdotnet-aspnet-codegenerator)' == '' ">/Users/mac/RiderProjects/StoreWeb/Store/obj/.store/.stage/bw1dozr5.x13/dotnet-aspnet-codegenerator/5.0.2</Pkgdotnet-aspnet-codegenerator>
   </PropertyGroup>
 </Project>

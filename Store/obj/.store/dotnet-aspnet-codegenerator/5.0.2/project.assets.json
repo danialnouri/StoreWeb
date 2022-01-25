@@ -73,16 +73,16 @@
     ]
   },
   "packageFolders": {
-    "/Users/mac/RiderProjects/StoreWeb/Store/obj/.store/.stage/iuz1cszm.qhd": {}
+    "/Users/mac/RiderProjects/StoreWeb/Store/obj/.store/.stage/bw1dozr5.x13": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/var/folders/hh/c2ybt5095215zvbzcfw1v8pw0000gn/T/ptt23oz2.owz/restore.csproj",
+      "projectUniqueName": "/var/folders/hh/c2ybt5095215zvbzcfw1v8pw0000gn/T/umzez4ab.i5p/restore.csproj",
       "projectName": "restore",
-      "projectPath": "/var/folders/hh/c2ybt5095215zvbzcfw1v8pw0000gn/T/ptt23oz2.owz/restore.csproj",
-      "packagesPath": "/Users/mac/RiderProjects/StoreWeb/Store/obj/.store/.stage/iuz1cszm.qhd",
-      "outputPath": "/Users/mac/RiderProjects/StoreWeb/Store/obj/.store/.stage/iuz1cszm.qhd/",
+      "projectPath": "/var/folders/hh/c2ybt5095215zvbzcfw1v8pw0000gn/T/umzez4ab.i5p/restore.csproj",
+      "packagesPath": "/Users/mac/RiderProjects/StoreWeb/Store/obj/.store/.stage/bw1dozr5.x13",
+      "outputPath": "/Users/mac/RiderProjects/StoreWeb/Store/obj/.store/.stage/bw1dozr5.x13/",
       "projectStyle": "DotnetToolReference",
       "configFilePaths": [
         "/Users/mac/.nuget/NuGet/NuGet.Config"

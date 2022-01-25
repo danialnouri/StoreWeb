@@ -1,3 +1,6 @@
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
 @model IEnumerable<Store.Models.DetailKalaViewModel>
 
 @{
@@ -7,9 +10,16 @@
 
 <h1>Index</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
+
+@if (SignInManager.IsSignedIn(User))
+{
+    if (User.IsInRole("Administrator") || User.IsInRole("User"))
+    {
+        <p>
+            <a asp-action="Create">Create New</a>
+        </p>
+    }
+}
 <table id="tblData" class="table">
     <thead>
     <tr>
